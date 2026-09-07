@@ -15,10 +15,10 @@ jobs:
 
     steps:
       - name: Hent projektet
-        uses: actions/checkout@692973e3d9371296bf400492193297591b650731 # v4.2.2
+        uses: actions/checkout@dd06d9cba3e5552c54d9f8ea23572deb30010f7c 
 
       - name: Installer Java 25
-        uses: actions/setup-java@7a63335e23812822971207917726359f428d9c57 # v4.7.0
+        uses: actions/setup-java@7a63335e23812822971207917726359f428d9c57 
         with:
           java-version: '25'
           distribution: 'temurin'
